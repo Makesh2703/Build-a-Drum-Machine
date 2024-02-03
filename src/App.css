@@ -1,0 +1,33 @@
+.container{
+  text-align: center;
+  margin:50px;
+}
+
+.whole-drum{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 50px auto;
+  width: min-content;
+}
+
+.drum-pad{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #2f2f2f;
+  background-color: #3f3f3f;
+  color: aliceblue;
+  font-size: large;
+  border-radius: 50px;
+  box-shadow: 4px 4px 10px rgba(0, 0,0, 0.4);
+  font-weight: bolder;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+
+.drum-pad:active{
+  transform: translate(5px,5px);
+  color:chocolate;
+}
